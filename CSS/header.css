@@ -21,3 +21,26 @@ nav > a {
     font-size: 1.6rem;
 
 }
+
+/* ----------------------------------responsividade=400px------------------------------------------- */
+
+@media (max-width: 400px) {
+    header{
+        width: 100%;
+    }    
+    .title{
+        padding-left: 0;
+    }
+
+    header nav {
+        padding-left: 0;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+
