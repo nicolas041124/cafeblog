@@ -1,0 +1,23 @@
+header h1 {
+    width: 100%;   /* display: flex; justify-content: center; */
+    text-align: center;
+    color: var(--claro);
+    font-size: 1.6rem;
+}
+
+header nav{
+    background-color: var(--marrom_claro);
+    height: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    
+}
+
+nav > a {
+    color: var(--marrom_avermelhado);
+    font-size: 1.6rem;
+
+}
