@@ -1,25 +1,39 @@
-header h1 {
-    width: 100%;   /* display: flex; justify-content: center; */
+header{
+    width: 80%;
+}
+
+
+header img {
+    height: 5rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    background-color: var(--marrom);
+}
+
+header h1{
+    width: 100%;
     text-align: center;
     color: var(--claro);
     font-size: 1.6rem;
 }
 
-header nav{
-    background-color: var(--marrom_claro);
+header nav {
     height: 5rem;
-    padding-left: 5rem;
+    background-color: var(--terra);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 6.25rem;
     gap: 4rem;
-    
 }
 
-nav > a {
-    color: var(--marrom_avermelhado);
+nav > a{
+    color: var(--marrom-avermelhado);
     font-size: 1.6rem;
-
 }
 
 /* ----------------------------------responsividade=400px------------------------------------------- */
@@ -43,4 +57,64 @@ nav > a {
 
 }
 
+/* ----------------------------------responsividade=450px------------------------------------------- */
+@media (max-width: 450px) {
+    
+    header {
+        width: 100%;
+    }   
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+
+    }
+
+    nav > a {
+        font-size: 1.4rem;
+    }
+}
+/* ----------------------------------responsividade=1024px------------------------------------------- */
+@media (max-width: 1024px) {
+    
+    header {
+        width: 100%;
+    }   
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+
+    }
+
+    nav > a {
+        font-size: 1.4rem;
+    }
+}
+/* ----------------------------------responsividade=1440px------------------------------------------- */
+@media (max-width: 1440px) {
+    
+    header {
+        width: 100%;
+    }   
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+
+    }
+
+    nav > a {
+        font-size: 1.4rem;
+    }
+}
 

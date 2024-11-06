@@ -8,7 +8,7 @@
     --marrom: #987b5d;
     --cinza:#ebebeb;
     --marrom_avermelhado:brown;
-    --marrom_claro:wheat;
+    --terra:wheat;
 
 
 }
@@ -39,28 +39,3 @@ body{
 }
 
 /* quando não coloca a seta > e pq diz que ele não e um filho direto ou seja qualquer um ali vai ser alterado */
-header  img{
-    height: 5rem;
-    
-}
-
-header{
-    width: 80%;
-}
-
-
-.title{
-    display: flex;
-    align-items:center ;
-    background-color: var(--marrom);
-    padding-left: 5rem;
-}
-
-/* ==================================header============================ */
-
-
-/*===============================Main================================== */
-
-
-
-/*=====================================footer=================================================== */
